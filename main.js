@@ -15,9 +15,8 @@ console.log('num2： ');console.log(num2)
 console.log('返回：')
 main(num1,num2)
 
+
 function main(collectionA,collectionB){
-    let test=collectionA.filter((item)=>{
-        return collectionB.includes(item)
-    })
-    console.log(test)
+    let result =collectionA.filter((item) => collectionB.includes(item))
+    console.log(result)
 }
